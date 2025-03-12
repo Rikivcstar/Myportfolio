@@ -110,6 +110,13 @@ body {
   background-color: var(--background-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+nav .nav-logo img {
+  width: 70px;
+  margin-left: 40px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 ol,
 ul {
@@ -186,11 +193,10 @@ nav {
 }
 
 .hero-right img {
-  aspect-ratio: 1;
-  margin-top: 10px;
+  aspect-ratio: 2;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 90%;
+  width: 85%;
   height: auto;
   border-radius: 50%;
   box-shadow: 5px 5px 5px var(--shadow-color);
