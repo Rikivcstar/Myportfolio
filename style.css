@@ -193,7 +193,7 @@ nav {
 }
 
 .hero-right img {
-  aspect-ratio: 2;
+  aspect-ratio: 1;
   background-repeat: no-repeat;
   background-size: cover;
   width: 85%;
@@ -303,7 +303,7 @@ nav {
   }
 
   .hero-right img {
-    /* aspect-ratio: 1; */
+    aspect-ratio: 1;
     width: 80%;
     height: 400px;
   }
@@ -343,6 +343,12 @@ nav {
 }
 /* Mobile Styles */
 @media (max-width: 768px) {
+  nav .nav-logo img {
+    margin-left: 380px;
+    width: 60px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  }
   .nav-list {
     display: none;
     flex-direction: column;
